@@ -27,7 +27,7 @@ export default function CookiePolicyPage() {
           <section>
             <h2 style={{ fontSize: '1.375rem', fontWeight: 700, color: '#1e293b', marginBottom: '12px' }}>2. Titolare del trattamento</h2>
             <p>
-              Il Titolare del trattamento è <strong>TecnoService a.i.r &amp; M.C. Srl</strong>, con sede legale in 
+              Il Titolare del trattamento è <strong>TecnoService a.i.r &amp; M.C. Srl</strong> (P.IVA 07309950488), con sede legale in 
               Via Della Lama 12/M, 50052 Certaldo (FI).<br />
               Email: <a href="mailto:amministrazione.tecnoairsrl@gmail.com" style={{ color: '#0ea5e9' }}>amministrazione.tecnoairsrl@gmail.com</a>
             </p>

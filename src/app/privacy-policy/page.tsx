@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 style={{ fontSize: '1.375rem', fontWeight: 700, color: '#1e293b', marginBottom: '12px' }}>1. Titolare del trattamento</h2>
             <p>
-              Il Titolare del trattamento dei dati personali è <strong>TecnoService a.i.r &amp; M.C. Srl</strong>, con sede legale in 
+              Il Titolare del trattamento dei dati personali è <strong>TecnoService a.i.r &amp; M.C. Srl</strong> (P.IVA 07309950488), con sede legale in 
               Via Della Lama 12/M, 50052 Certaldo (FI) e sede operativa in Via di Stieta 1, 50054 Fucecchio (FI).
             </p>
             <p>

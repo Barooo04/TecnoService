@@ -107,6 +107,7 @@ export default function Footer() {
           <div className="footer-legal">
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/cookie-policy">Cookie Policy</Link>
+            <span>P.IVA 07309950488</span>
           </div>
         </div>
       </div>
