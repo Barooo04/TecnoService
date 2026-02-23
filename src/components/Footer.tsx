@@ -105,9 +105,8 @@ export default function Footer() {
             © {currentYear} TecnoService. Tutti i diritti riservati.
           </p>
           <div className="footer-legal">
-            <Link href="#">Privacy Policy</Link>
-            <Link href="#">Cookie Policy</Link>
-            <span>P.IVA 12345678901</span>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/cookie-policy">Cookie Policy</Link>
           </div>
         </div>
       </div>
