@@ -41,7 +41,7 @@ export default function Navbar() {
             <Link href="/">
               <Image
                 src={isScrolled ? '/images/logoBlu.png' : '/images/logoTecnoService.png'}
-                alt="TecnoService a.i.r & M.C. Srl - Impianti industriali e residenziali Fucecchio"
+                alt="TecnoService a.i.r & M.C. Srl - Impianti industriali e residenziali in Toscana"
                 width={240}
                 height={68}
                 className={`navbar-logo ${isScrolled ? '' : 'navbar-logo-white'}`}

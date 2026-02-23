@@ -20,7 +20,7 @@ export default function ContattiPage() {
         <div className="hero-overlay" style={{ background: 'radial-gradient(circle at 30% 30%, rgba(14,165,233,0.2), transparent 60%)' }} />
         <motion.div className="hero-content" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <span className="hero-badge">Assistenza Dedicata</span>
-          <h1 className="hero-title">Contatta TecnoService a Fucecchio — Preventivo Gratuito</h1>
+          <h1 className="hero-title">Contatta TecnoService — Preventivo Gratuito in Toscana</h1>
           <p className="hero-description">Siamo a tua disposizione per qualsiasi informazione, preventivo o richiesta di assistenza. Il nostro team risponde entro 24 ore.</p>
         </motion.div>
       </section>

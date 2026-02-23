@@ -18,11 +18,11 @@ export default function AirPage() {
     <>
       {/* Hero */}
       <section className="hero" style={{ minHeight: '80vh' }}>
-        <Image src="/images/hero-air.png" alt="TecnoService AIR - Compressori industriali e impianti aria compressa per aziende Fucecchio Firenze" fill className="hero-video" style={{ objectFit: 'cover' }} priority />
+        <Image src="/images/hero-air.png" alt="TecnoService AIR - Compressori industriali e impianti aria compressa per aziende in Toscana" fill className="hero-video" style={{ objectFit: 'cover' }} priority />
         <div className="hero-overlay" style={{ background: 'linear-gradient(to right, rgba(2, 132, 199, 0.95), rgba(2, 132, 199, 0.7), transparent)' }} />
         <motion.div className="hero-content" style={{ textAlign: 'left', maxWidth: '650px', marginRight: 'auto' }} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <span className="hero-badge">Divisione Aziende</span>
-          <h1 className="hero-title">Compressori e Impianti Industriali a Fucecchio<span style={{ display: 'block', fontSize: '1.5rem', fontWeight: 500, color: '#7dd3fc', marginTop: '16px' }}>A.I.R — Aria • Impianti • Refrigerazione</span></h1>
+          <h1 className="hero-title">Compressori e Impianti Industriali in Toscana<span style={{ display: 'block', fontSize: '1.5rem', fontWeight: 500, color: '#7dd3fc', marginTop: '16px' }}>A.I.R — Aria • Impianti • Refrigerazione</span></h1>
           <p className="hero-description" style={{ marginLeft: 0 }}>Partner affidabile per il settore industriale. Compressori, impianti ad aria compressa, chiller e soluzioni su misura per ottimizzare la produttività della tua azienda.</p>
           <div className="hero-buttons" style={{ justifyContent: 'flex-start' }}>
             <a href="#contatti" className="btn btn-primary">Richiedi Preventivo <ArrowRight size={20} /></a>
@@ -37,7 +37,7 @@ export default function AirPage() {
           <div className="grid-2">
             <motion.div className="content-block" initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} style={{ order: 2 }}>
               <span className="content-label">La Nostra Specializzazione</span>
-              <h2 className="content-title">Vendita e Assistenza Compressori Industriali in Provincia di Firenze</h2>
+              <h2 className="content-title">Vendita e Assistenza Compressori Industriali nelle Province di Firenze, Pisa e Livorno</h2>
               <p className="content-text">A.I.R è la divisione di TecnoService dedicata alle aziende. Progettiamo, installiamo e manuteniamo impianti ad aria compressa, compressori e sistemi di raffreddamento industriale per ogni tipo di attività produttiva.</p>
               <p className="content-text">Dalla consulenza tecnica alla progettazione, dall&apos;installazione chiavi in mano all&apos;assistenza programmata: accompagniamo la tua azienda in ogni fase con competenza e affidabilità.</p>
               <div className="feature-grid">
@@ -48,7 +48,7 @@ export default function AirPage() {
               <Link href="/contatti" className="btn btn-primary">Scopri di Più <ArrowRight size={18} /></Link>
             </motion.div>
             <motion.div className="image-container" initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} style={{ order: 1 }}>
-              <Image src="/images/hero.jpg" alt="Tecnico TecnoService AIR durante manutenzione compressore industriale a Fucecchio" width={600} height={550} className="image-main" />
+              <Image src="/images/hero.jpg" alt="Tecnico TecnoService AIR durante manutenzione compressore industriale" width={600} height={550} className="image-main" />
               <div className="image-badge"><div className="image-badge-number">500+</div><div className="image-badge-text">Aziende Servite</div></div>
             </motion.div>
           </div>

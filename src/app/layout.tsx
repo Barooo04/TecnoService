@@ -19,15 +19,15 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL("https://tecnoserviceairsrl.it"),
   title: {
-    default: "TecnoService a.i.r & M.C. Srl | Impianti Industriali e Residenziali Fucecchio",
+    default: "TecnoService a.i.r & M.C. Srl | Impianti Industriali e Residenziali in Toscana",
     template: "%s | TecnoService a.i.r & M.C. Srl",
   },
-  description: "Compressori, impianti industriali, aria compressa e chiller per aziende. Caldaie, condizionatori e impianti idrici per privati. Vendita, installazione e assistenza a Fucecchio, Empoli e provincia di Firenze.",
-  keywords: "compressori industriali, impianti aria compressa, chiller, caldaie, condizionatori, impianti idrici, Fucecchio, Empoli, Firenze, Toscana, assistenza, manutenzione, TecnoService",
+  description: "Compressori, impianti industriali, aria compressa e chiller per aziende. Caldaie, condizionatori e impianti idrici per privati. Vendita, installazione e assistenza nelle province di Firenze, Pisa e Livorno.",
+  keywords: "compressori industriali, impianti aria compressa, chiller, caldaie, condizionatori, impianti idrici, Firenze, Pisa, Livorno, Empoli, Toscana, assistenza, manutenzione, TecnoService",
   authors: [{ name: "TecnoService a.i.r & M.C. Srl" }],
   openGraph: {
     title: "TecnoService a.i.r & M.C. Srl | Impianti Industriali e Residenziali",
-    description: "Divisione AIR per aziende: compressori e impianti industriali. Divisione MC per privati: caldaie, condizionatori e impianti idrici. Fucecchio (FI).",
+    description: "Divisione AIR per aziende: compressori e impianti industriali. Divisione MC per privati: caldaie, condizionatori e impianti idrici. Province di Firenze, Pisa e Livorno.",
     type: "website",
     locale: "it_IT",
     url: "https://tecnoserviceairsrl.it",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "TecnoService a.i.r & M.C. Srl | Impianti Industriali e Residenziali",
-    description: "Compressori e impianti industriali per aziende. Caldaie, condizionatori e impianti idrici per privati. Fucecchio (FI).",
+    description: "Compressori e impianti industriali per aziende. Caldaie, condizionatori e impianti idrici per privati. Province di Firenze, Pisa e Livorno.",
     images: ["/images/logoBlu.png"],
   },
   alternates: {
@@ -113,10 +113,19 @@ export default function RootLayout({
           longitude: 10.8128,
         },
         areaServed: [
-          { "@type": "City", name: "Fucecchio" },
-          { "@type": "City", name: "Empoli" },
-          { "@type": "City", name: "Certaldo" },
           { "@type": "AdministrativeArea", name: "Provincia di Firenze" },
+          { "@type": "AdministrativeArea", name: "Provincia di Pisa" },
+          { "@type": "AdministrativeArea", name: "Provincia di Livorno" },
+          { "@type": "City", name: "Firenze" },
+          { "@type": "City", name: "Pisa" },
+          { "@type": "City", name: "Livorno" },
+          { "@type": "City", name: "Empoli" },
+          { "@type": "City", name: "Fucecchio" },
+          { "@type": "City", name: "Pontedera" },
+          { "@type": "City", name: "San Miniato" },
+          { "@type": "City", name: "Certaldo" },
+          { "@type": "City", name: "Cecina" },
+          { "@type": "City", name: "Rosignano Marittimo" },
           { "@type": "AdministrativeArea", name: "Toscana" },
         ],
         hasOfferCatalog: {
