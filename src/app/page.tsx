@@ -59,8 +59,8 @@ export default function Home() {
             Certificati F-GAS • Due divisioni specializzate
           </span>
           <h1 className="hero-title">
-            Soluzioni per Aziende e Privati
-            <span className="hero-title-gradient">Impianti Industriali e Residenziali</span>
+            Impianti Industriali e Residenziali a Fucecchio
+            <span className="hero-title-gradient">Compressori, Caldaie e Condizionatori</span>
           </h1>
           <p className="hero-description">
             TecnoService a.i.r &amp; M.C: due anime, un unico obiettivo. Compressori e impianti industriali 
@@ -108,7 +108,7 @@ export default function Home() {
             >
               <Image
                 src="/images/team.jpg"
-                alt="Il nostro team"
+                alt="Team TecnoService - Tecnici specializzati impianti industriali e residenziali Fucecchio Firenze"
                 width={600}
                 height={550}
                 className="image-main"
@@ -126,7 +126,7 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <span className="content-label">Chi Siamo</span>
-              <h2 className="content-title">Due Divisioni, Un&apos;Unica Eccellenza</h2>
+              <h2 className="content-title">Assistenza Impianti Industriali e Domestici a Fucecchio</h2>
               <p className="content-text">
                 TecnoService nasce dall&apos;unione di due competenze complementari: il mondo industriale 
                 e quello residenziale. Ogni giorno affianchiamo aziende e famiglie con soluzioni 
@@ -166,7 +166,7 @@ export default function Home() {
           >
             <Image
               src="/images/logo-certificazione-fgas.jpg"
-              alt="Certificazione F-GAS"
+              alt="Certificazione F-GAS TecnoService per installazione e manutenzione impianti di climatizzazione"
               width={180}
               height={90}
               className="cert-logo"
@@ -195,7 +195,7 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <span className="section-label">I Nostri Servizi</span>
-            <h2 className="section-title">Soluzioni Complete per Aziende e Privati</h2>
+            <h2 className="section-title">Servizi Compressori, Caldaie e Impianti Idrici in Provincia di Firenze</h2>
             <p className="section-subtitle">
               Dall&apos;industria alla tua casa: compressori, chiller e aria compressa per le aziende, 
               caldaie, condizionatori e impianti idrici per i privati.
@@ -278,7 +278,7 @@ export default function Home() {
             viewport={{ once: true }}
           >
             <span className="section-label">Testimonianze</span>
-            <h2 className="section-title">Cosa Dicono di Noi</h2>
+            <h2 className="section-title">Recensioni Clienti TecnoService Fucecchio</h2>
             <p className="section-subtitle">
               La soddisfazione dei nostri clienti è la nostra migliore referenza
             </p>
@@ -314,7 +314,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="cta-title">Hai bisogno di un professionista?</h2>
+          <h2 className="cta-title">Preventivo Gratuito Impianti a Fucecchio e Empoli</h2>
           <p className="cta-text">
             Che tu sia un&apos;azienda o un privato, contattaci per un preventivo gratuito 
             e senza impegno. I nostri tecnici sono pronti ad aiutarti.

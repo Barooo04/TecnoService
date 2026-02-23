@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="footer-col footer-col-brand">
             <Image
               src="/images/logoTecnoService.png"
-              alt="TecnoService"
+              alt="TecnoService a.i.r & M.C. Srl - Logo footer"
               width={220}
               height={62}
               className="footer-logo"

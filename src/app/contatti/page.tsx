@@ -20,7 +20,7 @@ export default function ContattiPage() {
         <div className="hero-overlay" style={{ background: 'radial-gradient(circle at 30% 30%, rgba(14,165,233,0.2), transparent 60%)' }} />
         <motion.div className="hero-content" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <span className="hero-badge">Assistenza Dedicata</span>
-          <h1 className="hero-title">Contattaci</h1>
+          <h1 className="hero-title">Contatta TecnoService a Fucecchio — Preventivo Gratuito</h1>
           <p className="hero-description">Siamo a tua disposizione per qualsiasi informazione, preventivo o richiesta di assistenza. Il nostro team risponde entro 24 ore.</p>
         </motion.div>
       </section>
@@ -47,7 +47,7 @@ export default function ContattiPage() {
           <div className="grid-form">
             <motion.div className="content-block" initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <span className="content-label">Parliamone</span>
-              <h2 className="content-title">Come Possiamo Aiutarti?</h2>
+              <h2 className="content-title">Richiedi Informazioni su Compressori, Caldaie e Impianti</h2>
               <p className="content-text">Che tu sia un privato alla ricerca di soluzioni per la climatizzazione o un&apos;azienda con esigenze di riscaldamento industriale, il nostro team è pronto ad assisterti.</p>
               <p className="content-text">Compila il form con i tuoi dati e la tua richiesta. Un nostro consulente ti contatterà entro 24 ore lavorative per discutere le tue esigenze e fornirti un preventivo personalizzato e gratuito.</p>
               
@@ -83,7 +83,7 @@ export default function ContattiPage() {
       {/* CTA */}
       <section className="cta-section">
         <motion.div className="cta-content" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-          <h2 className="cta-title">Preferisci Parlare con un Esperto?</h2>
+          <h2 className="cta-title">Parla con un Tecnico Specializzato — Chiamaci Ora</h2>
           <p className="cta-text">Chiamaci direttamente per una consulenza immediata. I nostri tecnici sono a tua disposizione per rispondere a tutte le tue domande.</p>
           <div className="cta-buttons">
             <a href="tel:+393911003135" className="btn btn-primary"><Phone size={20} /> Chiama Ora</a>

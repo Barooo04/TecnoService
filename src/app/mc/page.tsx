@@ -18,11 +18,11 @@ export default function McPage() {
     <>
       {/* Hero */}
       <section className="hero" style={{ minHeight: '80vh' }}>
-        <Image src="/images/hero-mc.jpg" alt="M.C." fill className="hero-video" style={{ objectFit: 'cover' }} priority />
+        <Image src="/images/hero-mc.jpg" alt="TecnoService MC - Assistenza caldaie condizionatori e impianti idrici per privati a Fucecchio Firenze" fill className="hero-video" style={{ objectFit: 'cover' }} priority />
         <div className="hero-overlay" style={{ background: 'linear-gradient(to right, rgba(234, 88, 12, 0.95), rgba(234, 88, 12, 0.7), transparent)' }} />
         <motion.div className="hero-content" style={{ textAlign: 'left', maxWidth: '650px', marginRight: 'auto' }} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <span className="hero-badge" style={{ background: 'rgba(255,255,255,0.1)', color: '#fed7aa' }}>Divisione Privati</span>
-          <h1 className="hero-title">M.C.<span style={{ display: 'block', fontSize: '1.5rem', fontWeight: 500, color: '#fed7aa', marginTop: '16px' }}>Manutenzione • Casa</span></h1>
+          <h1 className="hero-title">Caldaie, Condizionatori e Impianti Idrici a Fucecchio<span style={{ display: 'block', fontSize: '1.5rem', fontWeight: 500, color: '#fed7aa', marginTop: '16px' }}>M.C. — Manutenzione • Casa</span></h1>
           <p className="hero-description" style={{ marginLeft: 0 }}>Il tuo punto di riferimento per il comfort domestico. Vendita e assistenza su caldaie, condizionatori e impianti idrici, con tecnici qualificati e un servizio sempre trasparente.</p>
           <div className="hero-buttons" style={{ justifyContent: 'flex-start' }}>
             <a href="#contatti" className="btn btn-orange">Richiedi Preventivo <ArrowRight size={20} /></a>
@@ -36,12 +36,12 @@ export default function McPage() {
         <div className="container-main">
           <div className="grid-2">
             <motion.div className="image-container" initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-              <Image src="/images/hero.jpg" alt="Tecnico M.C." width={600} height={550} className="image-main" />
+              <Image src="/images/hero.jpg" alt="Tecnico TecnoService MC durante installazione caldaia a condensazione Fucecchio" width={600} height={550} className="image-main" />
               <div className="image-badge image-badge-orange"><div className="image-badge-number">1000+</div><div className="image-badge-text">Famiglie Soddisfatte</div></div>
             </motion.div>
             <motion.div className="content-block" initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <span className="content-label" style={{ color: '#f97316' }}>La Nostra Specializzazione</span>
-              <h2 className="content-title">Comfort e Sicurezza per la Tua Casa</h2>
+              <h2 className="content-title">Installazione e Assistenza Caldaie e Climatizzatori in Provincia di Firenze</h2>
               <p className="content-text">M.C. è la divisione di TecnoService dedicata ai privati. Ci occupiamo di vendita, installazione e assistenza su caldaie, condizionatori e impianti idrici, con un servizio completo e senza pensieri.</p>
               <p className="content-text">Dall&apos;impianto di irrigazione del giardino al riscaldamento a pavimento, dalla caldaia al climatizzatore: un unico interlocutore per tutte le esigenze della tua abitazione.</p>
               <div className="feature-grid">
@@ -60,7 +60,7 @@ export default function McPage() {
         <div className="container-main">
           <motion.div className="section-header" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <span className="section-label" style={{ color: '#f97316' }}>I Nostri Servizi</span>
-            <h2 className="section-title">Tutto per la Tua Casa</h2>
+            <h2 className="section-title">Servizi per Privati: Riscaldamento, Climatizzazione e Idraulica</h2>
             <p className="section-subtitle">Vendita, installazione e assistenza su caldaie, condizionatori e impianti idrici. Un servizio completo e dedicato per il comfort della tua abitazione.</p>
           </motion.div>
           <div className="grid-2">
